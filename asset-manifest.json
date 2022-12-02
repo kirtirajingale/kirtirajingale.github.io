@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/static/css/main.a85ea8d1.css",
-    "main.js": "/static/js/main.eb36757e.js",
+    "main.js": "/static/js/main.05d6a6f4.js",
     "static/media/cv.pdf": "/static/media/cv.2e476884c96a7f52d92a.pdf",
     "static/media/me.png": "/static/media/me.0733a82b434f626d4e77.png",
     "static/media/Kirtiraj_photo.png": "/static/media/Kirtiraj_photo.d4e0f660be0b9a43bcec.png",
     "static/media/check2.png": "/static/media/check2.9006296b18a55dbbf9d6.png",
     "index.html": "/index.html",
     "main.a85ea8d1.css.map": "/static/css/main.a85ea8d1.css.map",
-    "main.eb36757e.js.map": "/static/js/main.eb36757e.js.map"
+    "main.05d6a6f4.js.map": "/static/js/main.05d6a6f4.js.map"
   },
   "entrypoints": [
     "static/css/main.a85ea8d1.css",
-    "static/js/main.eb36757e.js"
+    "static/js/main.05d6a6f4.js"
   ]
 }

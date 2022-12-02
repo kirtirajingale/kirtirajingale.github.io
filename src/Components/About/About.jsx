@@ -40,13 +40,17 @@ const About = () => {
           </div>
 
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste in
-            eius fugit cupiditate, commodi nulla deleniti corporis natus
-            temporibus nam tempore minima sint quae delectus deserunt voluptates
-            nisi consectetur saepe!
+            An analytical and detail-oriented Full Stack Web Developer. Capable
+            of writing production-ready code using ReactJS, Redux, and CSS on
+            the frontend, NodeJS, and Express on the backend to build a
+            single-page application. Passionate about coding and a team player
+            who is proficient in working with interdisciplinary teams and
+            executing goal-oriented projects.
           </p>
 
-          <a href="#contact" className="btn btn-primary">Let's Talk</a>
+          <a href="#contact" className="btn btn-primary">
+            Let's Talk
+          </a>
         </div>
       </div>
     </section>

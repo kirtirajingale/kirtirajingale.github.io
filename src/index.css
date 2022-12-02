@@ -36,10 +36,10 @@ body{
   background: var(--color-bg);
   color:var(--color-white);
   line-height: 1.7;
-  background-image: url(../src/assets/texture2.jpg);
+  background-image: url(../src/assets/check2.png);
   height: 100%;
   background-position: center;
-  background-size: cover;
+  /* background-size: cover; */
 }
 
 

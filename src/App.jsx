@@ -2,7 +2,7 @@ import React from 'react';
 import Header from './Components/Header/Header';
 import Navbar from './Components/Navbar/Navbar';
 import About from './Components/About/About';
-import Experience from './Components/Experience/Experience';
+// import Experience from './Components/Experience/Experience';
 import Skills from './Components/Skills/Skills';
 import Portfolio from './Components/Portfolio/Portfolio';
 import Contact from './Components/Contact/Contact';
@@ -16,7 +16,7 @@ function App() {
       <Navbar/>
       <About/>
       <Skills/>
-      <Experience/>
+      {/* <Experience/> */}
       <Portfolio/>
       <Contact/>
       <Footer/>

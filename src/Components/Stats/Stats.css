@@ -1,0 +1,63 @@
+.main-container{
+    width: 75%;
+    margin: auto;
+    margin-top: 8rem;
+   
+}
+.streak-stats{
+    width: 50%;
+    margin: auto;
+    margin-bottom: 5rem;
+}
+
+.streak-stats img{
+    border-radius: 0.6rem;
+}
+.container-stats{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 2.5rem;
+}
+.container-stats img{
+    border-radius: 0.6rem;
+}
+
+.calender-state{
+    width: 75%;
+    margin: auto;
+    margin-top: 4rem;
+}
+
+.calender-state img{
+    border-radius: 0.6rem;
+}
+
+
+/* -------------- Media Queries for Medium Devices-------- */
+
+@media screen and (max-width:1024px){
+    
+    .container-stats{
+        grid-template-columns: 2fr 2fr;
+        gap: 1.2rem;
+    }
+    .calender-state{
+        width: 100%;
+    }
+  }
+
+/* -------------- Media Queries for Small Devices-------- */
+
+@media screen and (max-width:600px){
+  .container-stats{
+    grid-template-columns: 2fr;
+    gap: 1rem;
+  }
+  .streak-stats{
+    width: 100%;
+  }
+  .calender-state{
+    width: 100%;
+}
+}

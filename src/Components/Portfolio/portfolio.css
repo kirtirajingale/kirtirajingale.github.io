@@ -22,7 +22,7 @@
     overflow: hidden;
 }
 
-.portfolio__item h3{
+.portfolio__item h5{
     text-align: center;
     margin: 1rem 0 1.1rem;
 }

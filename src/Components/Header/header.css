@@ -4,13 +4,33 @@ header{
     overflow: hidden;
 }
 
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .header__container{
     text-align: center;
     height: 100%;
     position: relative;
 }
 
+.inner-container{
+  width: 50rem;
+}
 
+.inner-container h5{
+  font-size: 1.2rem;
+}
+
+.inner-container h1{
+  font-size: 3.5rem;
+  letter-spacing: 0.2rem;
+}
+
+.text-light{
+  font-size: 1.8rem;
+}
 /* ------------------CTA------------------- */
 
 
@@ -19,6 +39,11 @@ header{
     display: flex;
     gap: 1.2rem;
     justify-content: center;
+    
+}
+
+.btn{
+  border: 1px solid var(--color-primary);
 }
 
 /* --------------Header social -----------------*/
@@ -32,6 +57,9 @@ header{
     left: 0;
     bottom: 3rem;
 
+}
+.icon{
+  width: 30px;
 }
 
 .header__socials::after{
@@ -64,7 +92,7 @@ header{
     bottom: 5rem;
     transform: rotate(90deg);
     font-weight: 300;
-    font-size: 0.9rem;
+    font-size: 1.2rem;
 }
 
 

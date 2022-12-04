@@ -66,7 +66,7 @@ const Skills = () => {
  {/* ********************* BACKEND DEVELOPMENT STARTS **************************** */}
 
           <div className='experience__backend'>
-          <h3>Backend Development</h3>
+          <h3>Backend Development & Used Tools</h3>
              <div className="experience__content">
 
               <article className='experience__details'>
@@ -93,7 +93,21 @@ const Skills = () => {
               <article className='experience__details'>
               <BsPatchCheckFill className='experience__details-icon'/>
                 <div>
+                    <h4>DSA</h4>
+                </div>
+              </article>
+
+              <article className='experience__details'>
+              <BsPatchCheckFill className='experience__details-icon'/>
+                <div>
                     <h4>GitHub</h4>
+                </div>
+              </article>
+
+              <article className='experience__details'>
+              <BsPatchCheckFill className='experience__details-icon'/>
+                <div>
+                    <h4>VS Code</h4>
                 </div>
               </article>
              </div>

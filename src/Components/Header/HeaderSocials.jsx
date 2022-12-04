@@ -11,13 +11,13 @@ const HeaderSocials = () => {
 "
         target="_blank"
       >
-        <BsLinkedin />
+        <BsLinkedin className="icon" />
       </a>
       <a href="https://github.com/kirtirajingale" target="_blank">
-        <FaGithub />
+        <FaGithub  className="icon"/>
       </a>
       <a href="https://twitter.com/kirtiraj_ingale" target="_blank">
-        <BsTwitter />
+        <BsTwitter className="icon" />
       </a>
     </div>
   );

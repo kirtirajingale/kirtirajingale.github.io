@@ -10,14 +10,14 @@ const data = [
   {
     id: 1,
     image: projectimg1,
-    title: "Zoomcar - Clone",
+    title: "Zoomcar - Clone : It provides passenger vehicle rental services.",
     github: "https://github.com/kirtirajingale/Zoomcar-Team-Mind-Mantra",
     demo: "https://dreamy-llama-b91312.netlify.app/",
   },
   {
     id: 2,
     image: projectimg2,
-    title: "KindMeal.my - Clone",
+    title: "KindMeal.my-Clone : It is Malaysia's pioneering meat-free lifestyle platform. ",
     github: "https://github.com/Loki343/arrogant-beef-5673",
     demo: "https://verdant-alpaca-c375a0.netlify.app/",
   },
@@ -25,21 +25,21 @@ const data = [
     id: 3,
     image: projectimg3,
     title:
-      "The Hindu - Clone",
+      "The Hindu-Clone : It is the news website that provides us World wide news",
     github: "https://github.com/meracodemahan/purple-reason-2076",
     demo: "https://warm-tartufo-8ea9c8.netlify.app/",
   },
   {
     id: 4,
     image: projectimg4,
-    title: "My Ecommerce Store",
+    title: "My Ecommerce Store : Multi Product Ecommerce store  ",
     github: "https://github.com/kirtirajingale/Zoomcar-Team-Mind-Mantra",
     demo: "https://dreamy-llama-b91312.netlify.app/",
   },
   {
     id: 5,
     image: projectimg5,
-    title: "Twiik - Clone",
+    title: "Twiik - Clone : App where you will find lots of workouts, coaches and gyms",
     github: "https://github.com/kirtirajingale/shaplink_clone",
     demo: "https://sparkly-croquembouche-139cd2.netlify.app/",
   },
@@ -58,7 +58,7 @@ const Portfolio = () => {
               <div className="portfolio__item-image">
                 <img src={image} alt={title} />
               </div>
-              <h3>{title}</h3>
+              <h5>{title}</h5>
               <div className="portfolio__item-cta">
                 <a href={github} className="btn" target="_blank">
                   GitHub

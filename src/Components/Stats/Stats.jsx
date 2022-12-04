@@ -4,7 +4,7 @@ import calender from '../../assets/calender.png'
 
 const Stats = () => {
   return (
-    <section className="main-container" >
+    <section id="stats" className="main-container" >
         <h5>My Recent Task</h5>
         <h2>Stats & Calender</h2>
 

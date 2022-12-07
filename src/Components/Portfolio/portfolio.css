@@ -18,13 +18,20 @@
 }
 
 .portfolio__item-image{
-    border-radius: 1.5rem;
+    height: 12rem;
+    border-radius: 1.5rem 1.5rem 0 0; 
     overflow: hidden;
 }
 
-.portfolio__item h5{
+.portfolio__item p{
     text-align: center;
     margin: 1rem 0 1.1rem;
+    font-size: 1rem;
+}
+.tech_stack{
+    text-align: center;
+    margin-bottom: 1.5rem;
+    color: #2196f3;
 }
 
 .portfolio__item-cta{

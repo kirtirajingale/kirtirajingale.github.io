@@ -115,5 +115,14 @@ header{
       .header__socials,.scroll__down{
         display: none;
       }
+      .inner-container{
+        line-height: 3.5rem;
+      }
+      .inner-container h5{
+        font-size: 1.8rem;
+      }
     
+      .inner-container h1{
+        font-size: 2.5rem;
+      }
   }

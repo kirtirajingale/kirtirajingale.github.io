@@ -1,6 +1,7 @@
 import React from "react";
 import "./Stats.css";
-import calender from '../../assets/calender.png'
+//import calender from '../../assets/calender.png';
+import GitHubCalendar from 'react-github-calendar';
 
 const Stats = () => {
   return (
@@ -34,7 +35,8 @@ const Stats = () => {
     </article>
        
        <div className="calender-state">
-            <img src={calender} alt="calender" />
+            {/* <img src={calender} alt="calender" /> */}
+            <GitHubCalendar style={{margin:"auto"}} hideTotalCount="false" hideColorLegend= "false"  blockSize={15} username="kirtirajingale" />
        </div>
     </section>
   );

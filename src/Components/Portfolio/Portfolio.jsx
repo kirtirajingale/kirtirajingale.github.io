@@ -18,7 +18,7 @@ const data = [
   {
     id: 2,
     image: projectimg2,
-    title: "KindMeal.my - Clone : It is Malaysia's pioneering meat-free lifestyle platform. ",
+    title: "KindMeal.my - Clone : It is Malaysia's meat-free lifestyle platform. ",
     tech : "HTML | CSS | Javasript | DOM",
     github: "https://github.com/Loki343/arrogant-beef-5673",
     demo: "https://verdant-alpaca-c375a0.netlify.app/",
@@ -26,7 +26,7 @@ const data = [
   {
     id: 3,
     image: projectimg3,
-    title:"The Hindu - Clone : It is the news website that provides us World wide news",
+    title:"The Hindu - Clone : The news website that provides us World wide news",
     tech : "HTML | CSS | Javasript | DOM",
     github: "https://github.com/meracodemahan/purple-reason-2076",
     demo: "https://warm-tartufo-8ea9c8.netlify.app/",

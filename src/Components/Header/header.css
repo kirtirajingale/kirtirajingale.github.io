@@ -103,15 +103,23 @@ header{
       header{
         height: 68vh;
       }
+      .cta{
+        display: flex;
+        gap: 1.8rem;
+        justify-content: center;
+        
+    }
     }
   
   /* -------------- Media Queries for Small Devices-------- */
   
   @media screen and (max-width:600px){
+   
     header{
         height: 100vh;
       }
-    
+
+     
       .header__socials,.scroll__down{
         display: none;
       }
@@ -123,6 +131,14 @@ header{
       }
     
       .inner-container h1{
-        font-size: 2.5rem;
+        font-size: 2.2rem;
       }
+      .text-light{
+        font-size: 1.5rem;
+      }
+      .cta{
+        display: flex;
+        gap: 0.9rem;
+        
+    }
   }

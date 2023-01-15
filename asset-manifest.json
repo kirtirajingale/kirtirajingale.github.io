@@ -1,13 +1,14 @@
 {
   "files": {
-    "main.css": "/static/css/main.f1b02b2a.css",
-    "main.js": "/static/js/main.ab5cef20.js",
+    "main.css": "/static/css/main.743e16d8.css",
+    "main.js": "/static/js/main.d398eadb.js",
     "static/media/2.png": "/static/media/2.0c880c5ec52410816ed5.png",
     "static/media/3.png": "/static/media/3.123ed3475b635caf96aa.png",
     "static/media/5.png": "/static/media/5.24e845c0540eb92b265a.png",
     "static/media/1.png": "/static/media/1.ff819cc9135cceeeb55a.png",
     "static/media/cv.pdf": "/static/media/cv.8081c2092b436d15a1b4.pdf",
     "static/media/Kirtiraj_photo.png": "/static/media/Kirtiraj_photo.d4e0f660be0b9a43bcec.png",
+    "static/media/react-tesing.png": "/static/media/react-tesing.bcfc14f72967324353f5.png",
     "static/media/chakra.png": "/static/media/chakra.7d7f14f761b4dfbe1520.png",
     "static/media/react.png": "/static/media/react.809fed23bcdd686de66e.png",
     "static/media/dsa.png": "/static/media/dsa.882560851f5636a84bb8.png",
@@ -21,11 +22,11 @@
     "static/media/nextjs-icon.png": "/static/media/nextjs-icon.9f8054a6dc0837262000.png",
     "static/media/express-js-icon.png": "/static/media/express-js-icon.9b344d7469dbbdc76754.png",
     "index.html": "/index.html",
-    "main.f1b02b2a.css.map": "/static/css/main.f1b02b2a.css.map",
-    "main.ab5cef20.js.map": "/static/js/main.ab5cef20.js.map"
+    "main.743e16d8.css.map": "/static/css/main.743e16d8.css.map",
+    "main.d398eadb.js.map": "/static/js/main.d398eadb.js.map"
   },
   "entrypoints": [
-    "static/css/main.f1b02b2a.css",
-    "static/js/main.ab5cef20.js"
+    "static/css/main.743e16d8.css",
+    "static/js/main.d398eadb.js"
   ]
 }

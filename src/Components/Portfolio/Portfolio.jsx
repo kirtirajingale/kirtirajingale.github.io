@@ -21,7 +21,7 @@ const data = [
     title: "KindMeal.my - Clone : It is Malaysia's meat-free lifestyle platform. ",
     tech : "HTML | CSS | Javasript | DOM",
     github: "https://github.com/Loki343/arrogant-beef-5673",
-    demo: "https://verdant-alpaca-c375a0.netlify.app/",
+    demo: "https://arrogant-beef-5673.vercel.app/",
   },
   {
     id: 3,

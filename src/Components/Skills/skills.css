@@ -71,9 +71,26 @@
   }
 }
 
+/* -------------- Media Queries for Medium Devices-------- */
+
+@media screen and (max-width:1024px){
+    
+  .portfolio__container{
+      grid-template-columns: 1fr 1fr;
+      gap: 1.2rem;
+  }
+  .experience__content {
+    width: 90%;
+    row-gap: 2rem;
+    column-gap: 7rem;
+   
+  }
+}
+
+
 /* -------------- Media Queries for Small Devices-------- */
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 700px) {
   .experience__container {
     gap: 1rem;
   }
@@ -86,5 +103,6 @@
     padding: 1rem;
     row-gap: 2rem;
     column-gap: 3rem;
+    font-size: 10px;
   }
 }

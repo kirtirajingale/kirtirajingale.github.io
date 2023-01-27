@@ -121,7 +121,7 @@ const Skills = () => {
  {/* ********************* BACKEND DEVELOPMENT STARTS **************************** */}
 
           <div className='experience__backend'>
-          <h3>Backend Development & Other Used Tools</h3>
+          <h3>Backend Development & Other Tools</h3>
              <div className="experience__content">
 
               <article className='experience__details'>

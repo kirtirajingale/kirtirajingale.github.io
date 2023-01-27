@@ -24,14 +24,14 @@ const About = () => {
               <FaAward className="about__icon" />
               <h5>Experience</h5>
               <small>1.5+ Years Working</small>
-              <br />
+              {/* <br />
               <small>+</small>
               <br />
               <small>1200+ Hours Practical Coding</small>
               <br />
               <small>+</small>
               <br />
-              <small>300 Hours DSA</small>
+              <small>300 Hours DSA</small> */}
             </article>
 
             <article className="about__card">

@@ -33,7 +33,9 @@
     margin-bottom: 1.5rem;
     color: #2196f3;
 }
-
+.tech_stack:hover{
+    color: #4fc3f7    ;
+}
 .portfolio__item-cta{
     display: flex;
     gap: 1rem;

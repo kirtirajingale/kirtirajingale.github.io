@@ -4,7 +4,7 @@ import projectimg1 from "../../assets/1.png";
 import projectimg2 from "../../assets/2.png";
 import projectimg3 from "../../assets/3.png";
 // import projectimg4 from "../../assets/4.png";
-import projectimg5 from "../../assets/5.png";
+import projectimg5 from "../../assets/limeroadHP.png";
 
 const data = [
   {
@@ -31,21 +31,13 @@ const data = [
     github: "https://github.com/meracodemahan/purple-reason-2076",
     demo: "https://warm-tartufo-8ea9c8.netlify.app/",
   },
-  // {
-  //   id: 4,
-  //   image: projectimg4,
-  //   title: "My Ecommerce Store : Multi Product Ecommerce store  ",
-  //   tech : "HTML | CSS | Javasript | DOM",
-  //   github: "https://github.com/kirtirajingale/Zoomcar-Team-Mind-Mantra",
-  //   demo: "https://dreamy-llama-b91312.netlify.app/",
-  // },
   {
     id: 5,
     image: projectimg5,
-    title: "Twiik - Clone : App where you will find lots of workouts, coaches and gyms",
-    tech : "HTML | CSS | Javasript | DOM",
-    github: "https://github.com/kirtirajingale/shaplink_clone",
-    demo: "https://sparkly-croquembouche-139cd2.netlify.app/",
+    title: "Limeroad- Clone : It is an E-commerce shopping website ",
+    tech : "HTML | CSS | ReactJS | Firebase | Redux | ChakraUI",
+    github: "https://github.com/Avneesh002/Fashion-square",
+    demo: "https://fashi0n-square.netlify.app/",
   },
 ];
 

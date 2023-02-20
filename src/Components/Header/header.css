@@ -1,4 +1,4 @@
-header{
+#home{
     height: 100vh;
     padding-top: 7rem;
     overflow: hidden;
@@ -100,7 +100,7 @@ header{
 /* -------------- Media Queries for Medium Devices-------- */
 
 @media screen and (max-width:1024px){
-      header{
+  #home{
         height: 68vh;
       }
       .cta{
@@ -115,7 +115,7 @@ header{
   
   @media screen and (max-width:600px){
    
-    header{
+    #home{
         height: 100vh;
       }
 

@@ -1,4 +1,4 @@
-nav{
+#nav-menu{
     background: rgba(0,0,0,0.3);
     width: max-content;
     display: block;
@@ -14,7 +14,7 @@ nav{
     backdrop-filter: blur(15px);
 }
 
-nav a {
+#nav-menu a {
     background: transparent;
     padding: 0.9rem;
     border-radius:50%;
@@ -23,11 +23,11 @@ nav a {
     font-size: 1.1rem;
 }
 
-nav a:hover{
+#nav-menu a:hover{
     background: rgba(0,0,0,0.4);
 }
 
-nav a.active{
+#nav-menu a.active{
     background: var(--color-primary);
     color: var(--color-bg);
 }
@@ -36,7 +36,7 @@ nav a.active{
 /* -------------- Media Queries for Small Devices-------- */
 
 @media screen and (max-width: 600px) {
- nav{
+#nav-menu{
     width: max-content;
     display: flex;
     gap: 0.2rem;

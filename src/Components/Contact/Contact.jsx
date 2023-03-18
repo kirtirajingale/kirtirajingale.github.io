@@ -27,13 +27,13 @@ const Contact = () => {
             <MdOutlineMail className='contact__option-icon'/>
             <h4>Email</h4>
             <h5>Kirtirajingale46@gmail.com</h5>
-            <a href="mailto:Kirtirajingale46@gmail.com" target="_blank">Send a message</a>
+            <a id="contact-email" href="mailto:Kirtirajingale46@gmail.com" target="_blank">Send a message</a>
           </article>
 
           <article className='contact__option'>
             <BsLinkedin className='contact__option-icon'/>
             <h4>LinkedIn</h4>
-            <a href="https://linkedin.com/in/kirtiraj-ingale" target="_blank">Send a message</a>
+            <a id="contact-linkedin" href="https://linkedin.com/in/kirtiraj-ingale" target="_blank">Send a message</a>
           </article>
 
           <article className='contact__option'>

@@ -16,7 +16,8 @@ import dsa from '../../assets/dsa.png';
 import github from '../../assets/github.png';
 import cypress from '../../assets/cypress.png';
 import vscode from "../../assets/vscode.png";
-import reacttesting from '../../assets/react-tesing.png'
+import reacttesting from '../../assets/react-tesing.png';
+import {ImHtmlFive} from "react-icons/im"
 
 
 const Skills = () => {
@@ -31,7 +32,7 @@ const Skills = () => {
 
 {/* ********************* FRONTEND DEVELOPMENT STARTS **************************** */}
           
-          <div className="experience__frontend">
+          <div className="experience__frontend skills-card">
              <h3>Frontend Development</h3>
              <div className="experience__content">
 
@@ -41,7 +42,7 @@ const Skills = () => {
                 <img className='icon-tag' src={html} alt="html" />
               </div>
                 <div>
-                    <h4>HTML</h4>
+                    <h4 className='skills-card-name'>HTML</h4>
                 </div>
                 
               </article>
@@ -49,70 +50,70 @@ const Skills = () => {
               <article className='experience__details'>
               {/* <BsPatchCheckFill className='experience__details-icon'/> */}
               <div className='skill-icon'>
-                <img className='icon-tag' src={nextjs} alt="nextjs" />
+                <img className='icon-tag skills-card-img' src={nextjs} alt="nextjs" />
               </div>
                 <div>
-                    <h4>NEXTJS</h4>
+                    <h4 className='skills-card-name'>NEXTJS</h4>
                 </div>
               </article>
 
               <article className='experience__details'>
               {/* <BsPatchCheckFill className='experience__details-icon'/> */}
               <div className='skill-icon'>
-                <img className='icon-tag' src={css} alt="JS" />
+                <img className='icon-tag skills-card-img' src={css} alt="JS" />
               </div>
                 <div>
-                    <h4>CSS</h4>
+                    <h4 className='skills-card-name'>CSS</h4>
                 </div>
               </article>
 
               <article className='experience__details'>
               {/* <BsPatchCheckFill className='experience__details-icon'/> */}
               <div className='skill-icon'>
-                <img className='icon-tag' src={reactjs} alt="reactjs" />
+                <img className='icon-tag skills-card-img' src={reactjs} alt="reactjs" />
               </div>
                 <div>
-                    <h4>ReactJS</h4>
+                    <h4 className='skills-card-name'>ReactJS</h4>
                 </div>
               </article>
 
               <article className='experience__details'>
               {/* <BsPatchCheckFill className='experience__details-icon'/>  */}
               <div className='skill-icon'>
-                <img className='icon-tag' src={js} alt="JS" />
+                <img className='icon-tag skills-card-img' src={js} alt="JS" />
               </div>
                 <div>
-                    <h4>JavaScript</h4>
+                    <h4 className='skills-card-name'>JavaScript</h4>
                 </div>
               </article>
 
               <article className='experience__details'>
               {/* <BsPatchCheckFill className='experience__details-icon'/> */}
               <div className='skill-icon'>
-                <img className='icon-tag' src={redux} alt="redux" />
+                <img className='icon-tag skills-card-img' src={redux} alt="redux" />
               </div>
                 <div>
-                    <h4>Redux</h4>
+                    <h4 className='skills-card-name'>Redux</h4>
                 </div>
               </article>
 
               <article className='experience__details'>
               {/* <BsPatchCheckFill className='experience__details-icon'/> */}
               <div className='skill-icon'>
-                <img className='icon-tag' src={storybook} alt="storybook" />
+                <img className='icon-tag skills-card-img' src={storybook} alt="storybook" />
               </div>
                 <div>
-                    <h4>Storybook</h4>
+                    <h4 className='skills-card-name'>Storybook</h4>
                 </div>
               </article>
 
               <article className='experience__details'>
               {/* <BsPatchCheckFill className='experience__details-icon'/> */}
               <div className='skill-icon'>
-                <img className='icon-tag' src={chakra} alt="chakra" />
+                <img className='icon-tag skills-card-img' src={chakra} alt="chakra" />
               </div>
                 <div>
-                    <h4>Chakra UI</h4>
+                    <h4 className='skills-card-name'>Chakra UI</h4>
                 </div>
               </article>
              </div>
@@ -120,7 +121,7 @@ const Skills = () => {
 
  {/* ********************* BACKEND DEVELOPMENT STARTS **************************** */}
 
-          <div className='experience__backend'>
+          <div className='experience__backend skills-card' >
           <h3>Backend Development & Other Tools</h3>
              <div className="experience__content">
 
@@ -130,7 +131,7 @@ const Skills = () => {
                 <img className='icon-tag' src={nodejs} alt="nodejs" />
               </div>
                 <div>
-                    <h4>NodeJS</h4>
+                    <h4 className='skills-card-name'>NodeJS</h4>
                 </div>
               </article>
 
@@ -140,7 +141,7 @@ const Skills = () => {
                 <img className='mongoDB' src={mongodb} alt="mongodb" />
               </div>
                 <div>
-                    <h4>MongoDB</h4>
+                    <h4 className='skills-card-name'>MongoDB</h4>
                 </div>
               </article>
 
@@ -150,7 +151,7 @@ const Skills = () => {
                 <img className='icon-tag' src={expressjs} alt="expressjs" />
               </div>
                 <div>
-                    <h4>Express JS</h4>
+                    <h4 className='skills-card-name'>Express JS</h4>
                 </div>
               </article>
 
@@ -160,7 +161,7 @@ const Skills = () => {
                 <img className='icon-tag' src={cypress} alt="cypress" />
               </div>
                 <div>
-                    <h4>Cypress</h4>
+                    <h4 className='skills-card-name'>Cypress</h4>
                 </div>
               </article>
 
@@ -170,7 +171,7 @@ const Skills = () => {
                 <img className='icon-tag' src={dsa} alt="dsa" />
               </div>
                 <div>
-                    <h4>DSA</h4>
+                    <h4 className='skills-card-name'>DSA</h4>
                 </div>
               </article>
 
@@ -180,7 +181,7 @@ const Skills = () => {
                 <img className='icon-tag' src={github} alt="GitHub" />
               </div>
                 <div>
-                    <h4>GitHub</h4>
+                    <h4 className='skills-card-name'>GitHub</h4>
                 </div>
               </article>
 
@@ -190,7 +191,7 @@ const Skills = () => {
                 <img className='icon-tag' src={vscode} alt="vscode" />
               </div>
                 <div>
-                    <h4>VS Code</h4>
+                    <h4 className='skills-card-name'>VS Code</h4>
                 </div>
               </article>
 
@@ -200,7 +201,7 @@ const Skills = () => {
                 <img className='icon-tag' src={reacttesting} alt="reacttesting" />
               </div>
                 <div>
-                    <h4>Testing</h4>
+                    <h4 className='skills-card-name'>Testing</h4>
                 </div>
               </article>
              </div>

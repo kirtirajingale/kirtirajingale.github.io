@@ -14,7 +14,7 @@ const About = () => {
       <div className="container about__container">
         <div className="about__me">
           <div className="about__me-image">
-            <img src={ME} alt="mypic" />
+            <img src={ME} alt="mypic" className="home-img"/>
           </div>
         </div>
 
@@ -39,7 +39,7 @@ const About = () => {
             </article>
           </div>
 
-          <p>
+          <p id="user-detail-intro">
             An analytical and detail-oriented Full Stack Web Developer. Capable
             of writing production-ready code using ReactJS, Redux, and CSS on
             the frontend, NodeJS, and Express on the backend to build a

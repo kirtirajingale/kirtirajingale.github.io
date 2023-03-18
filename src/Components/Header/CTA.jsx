@@ -8,7 +8,7 @@ const CTA = () => {
     )
   }
   return (
-    <div className='cta'>
+    <div id="resume-link-2" className='cta'>
       <a onClick={handleResume} href={CV} className="btn" download={"Kirtiraj-Ingale-Resume.pdf"} target="_blank" >Download Resume</a>
       <a href="#contact" className='btn btn-primary'>Let's Talk</a>
     </div>

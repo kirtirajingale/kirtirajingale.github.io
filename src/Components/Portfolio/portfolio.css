@@ -28,6 +28,11 @@
     margin: 1rem 0 1.1rem;
     font-size: 1rem;
 }
+.portfolio__item .project-title{
+    color: #BFACE2;
+    font-weight: 800;
+    letter-spacing: 1.5px;
+}
 .tech_stack{
     text-align: center;
     margin-bottom: 1.5rem;

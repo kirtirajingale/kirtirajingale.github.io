@@ -1,144 +1,135 @@
-#home{
-    height: 100vh;
-    padding-top: 7rem;
-    overflow: hidden;
+#home {
+  height: 100vh;
+  padding-top: 7rem;
+  overflow: hidden;
 }
 
-.container{
+.container {
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.header__container{
-    text-align: center;
-    height: 100%;
-    position: relative;
+.header__container {
+  text-align: center;
+  height: 100%;
+  position: relative;
 }
 
-.inner-container{
+.inner-container {
   width: 50rem;
 }
 
-.inner-container h5{
+.inner-container h5 {
   font-size: 1.2rem;
 }
 
-.inner-container h1{
+.inner-container h1 {
   font-size: 3.5rem;
   letter-spacing: 0.2rem;
 }
 
-.text-light{
+.text-light {
   font-size: 1.8rem;
 }
 /* ------------------CTA------------------- */
 
-
-.cta{
-    margin-top: 2.5rem;
-    display: flex;
-    gap: 1.2rem;
-    justify-content: center;
-    
+.cta {
+  margin-top: 2.5rem;
+  display: flex;
+  gap: 1.2rem;
+  justify-content: center;
 }
 
-.btn{
+.btn {
   border: 1px solid var(--color-primary);
 }
 
 /* --------------Header social -----------------*/
 
-.header__socials{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 0.8rem;
-    position: absolute;
-    left: 0;
-    bottom: 3rem;
-
+.header__socials {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.8rem;
+  position: absolute;
+  left: 0;
+  bottom: 3rem;
 }
-.icon{
+.icon {
   width: 30px;
 }
 
-.header__socials::after{
-    content: "";
-    width: 1px;
-    height: 2rem;
-    background: var(--color-primary);
+.header__socials::after {
+  content: "";
+  width: 1px;
+  height: 2rem;
+  background: var(--color-primary);
 }
 
 /* ------------------ME-------------------- */
 
-.me{
-    background: linear-gradient(var(--color-primary),transparent);
-    width: 23rem;
-    height: 30rem;
-    position: absolute;
-    left: calc(50% - 11rem);
-    margin-top: 4rem;
-    border-radius: 12rem 12rem 0 0;
-    overflow: hidden;
-    padding: 5rem -1rem;
+.me {
+  background: linear-gradient(var(--color-primary), transparent);
+  width: 23rem;
+  height: 30rem;
+  position: absolute;
+  left: calc(50% - 11rem);
+  margin-top: 4rem;
+  border-radius: 12rem 12rem 0 0;
+  overflow: hidden;
+  padding: 5rem -1rem;
 }
 
 /* ------------------SCROLL DOWN-------------------- */
 
-
-.scroll__down{
-    position: absolute;
-    right: -2.3rem;
-    bottom: 5rem;
-    transform: rotate(90deg);
-    font-weight: 300;
-    font-size: 1.2rem;
+.scroll__down {
+  position: absolute;
+  right: -2.3rem;
+  bottom: 5rem;
+  transform: rotate(90deg);
+  font-weight: 300;
+  font-size: 1.2rem;
 }
-
-
 
 /* -------------- Media Queries for Medium Devices-------- */
 
-@media screen and (max-width:1024px){
-  #home{
-        height: 68vh;
-      }
-      .cta{
-        display: flex;
-        gap: 1.8rem;
-        justify-content: center;
-        
-    }
-    }
-  
-  /* -------------- Media Queries for Small Devices-------- */
-  
-  @media screen and (max-width:600px){
-   
-    #home{
-        height: 100vh;
-      }
-
-     
-      .header__socials,.scroll__down{
-        display: none;
-      }
-      .inner-container{
-        line-height: 3.5rem;
-      }
-      .inner-container h5{
-        font-size: 1.8rem;
-      }
-    
-      .inner-container h1{
-        font-size: 2.2rem;
-      }
-      .text-light{
-        font-size: 1.5rem;
-      }
-      .cta{
-        display: flex;
-        gap: 0.9rem;
-        
-    }
+@media screen and (max-width: 1024px) {
+  #home {
+    height: 68vh;
   }
+  .cta {
+    display: flex;
+    gap: 1.8rem;
+    justify-content: center;
+  }
+}
+
+/* -------------- Media Queries for Small Devices-------- */
+
+@media screen and (max-width: 600px) {
+  #home {
+    height: 100vh;
+  }
+
+  .header__socials,
+  .scroll__down {
+    display: none;
+  }
+  .inner-container {
+    line-height: 3.5rem;
+  }
+  .inner-container h5 {
+    font-size: 1.8rem;
+  }
+
+  .inner-container h1 {
+    font-size: 2.2rem;
+  }
+  .text-light {
+    font-size: 1.5rem;
+  }
+  .cta {
+    display: flex;
+    gap: 0.9rem;
+  }
+}

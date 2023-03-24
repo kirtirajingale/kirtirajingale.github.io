@@ -73,20 +73,17 @@
 
 /* -------------- Media Queries for Medium Devices-------- */
 
-@media screen and (max-width:1024px){
-    
-  .portfolio__container{
-      grid-template-columns: 1fr 1fr;
-      gap: 1.2rem;
+@media screen and (max-width: 1024px) {
+  .portfolio__container {
+    grid-template-columns: 1fr 1fr;
+    gap: 1.2rem;
   }
   .experience__content {
     width: 90%;
     row-gap: 2rem;
     column-gap: 7rem;
-   
   }
 }
-
 
 /* -------------- Media Queries for Small Devices-------- */
 

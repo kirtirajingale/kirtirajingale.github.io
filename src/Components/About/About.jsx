@@ -7,14 +7,14 @@ import { FaProjectDiagram } from "react-icons/fa";
 
 const About = () => {
   return (
-    <section  id="about" class="about section">
+    <section id="about" className="about section">
       <h5>Get To Know</h5>
       <h2>About Me</h2>
 
       <div className="container about__container">
         <div className="about__me">
           <div className="about__me-image">
-            <img src={ME} alt="mypic" className="home-img"/>
+            <img src={ME} alt="mypic" className="home-img" />
           </div>
         </div>
 

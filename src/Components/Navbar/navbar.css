@@ -1,44 +1,47 @@
-#nav-menu{
-    background: rgba(0,0,0,0.3);
-    width: max-content;
-    display: block;
-    padding: 1rem 2rem;
-    z-index: 2;
-    position: fixed;
-    left: 50%;
-    transform: translateX(-50%);
-    bottom: 2rem;
-    display: flex;
-    gap: 1.4rem;
-    border-radius: 3rem;
-    backdrop-filter: blur(15px);
+#nav-menu {
+  background: rgba(0, 0, 0, 0.3);
+  width: max-content;
+  display: block;
+  padding: 1rem 2rem;
+  z-index: 2;
+  position: fixed;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 2rem;
+  display: flex;
+  gap: 1.4rem;
+  border-radius: 3rem;
+  backdrop-filter: blur(15px);
 }
 
 #nav-menu a {
-    background: transparent;
-    padding: 0.9rem;
-    border-radius:50%;
-    display: flex;
-    color: var(--color-l);
-    font-size: 1.1rem;
+  background: transparent;
+  padding: 0.9rem;
+  border-radius: 50%;
+  display: flex;
+  color: var(--color-l);
+  font-size: 1.1rem;
 }
 
-#nav-menu a:hover{
-    background: rgba(0,0,0,0.4);
+#nav-menu a:hover {
+  background: rgba(0, 0, 0, 0.4);
 }
 
-#nav-menu a.active{
-    background: var(--color-primary);
-    color: var(--color-bg);
+#nav-menu a.active {
+  background: var(--color-primary);
+  color: var(--color-bg);
 }
 
-
+#resume-button-1 {
+  background: transparent;
+  color: #fff;
+}
 /* -------------- Media Queries for Small Devices-------- */
 
 @media screen and (max-width: 600px) {
-#nav-menu{
+  #nav-menu {
     width: max-content;
     display: flex;
     gap: 0.01px;
- }
   }
+}

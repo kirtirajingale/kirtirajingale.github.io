@@ -9,7 +9,7 @@ const HeaderSocials = () => {
   return (
     <div className="header__socials">
       <a id="contact-linkedin"
-        href="https://linkedin.com/in/kirtiraj-ingale" target="_blank">
+        href="https://www.linkedin.com/in/kirtiraj-ingale-07911a18b/" target="_blank">
         <BsLinkedin className="icon" />
       </a>
 

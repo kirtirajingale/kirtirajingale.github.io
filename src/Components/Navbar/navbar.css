@@ -1,24 +1,83 @@
 #nav-menu {
+  display: flex;
+  gap: 1.4rem;
   background: rgba(0, 0, 0, 0.3);
   width: max-content;
-  display: block;
-  padding: 1rem 2rem;
+  padding: 0.6rem 0.6rem;
   z-index: 2;
   position: fixed;
   left: 50%;
   transform: translateX(-50%);
   bottom: 2rem;
-  display: flex;
-  gap: 1.4rem;
   border-radius: 3rem;
   backdrop-filter: blur(15px);
 }
 
+#nav-menu .icon{
+  margin: 0 20px;
+}
+#nav-menu .icon span{
+  position: relative;
+  height: 60px;
+  width: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  z-index: 2;
+  cursor: pointer;
+}
+
+#nav-menu .icon .tooltip{
+  position: absolute;
+  top: -70px;
+  letter-spacing: 1.3px;
+  width: max-content;
+  background: #00122B;
+  font-size: 16px;
+  padding: 10px 16px;
+  border-radius: 25px;
+  color: #fff;
+  box-shadow: 0 10px 10px rgba(0,0,0,0.1);
+  opacity: 0;
+  pointer-events: none;
+  transition: all 0.4s cubic-bezier(0.68,-0.55,0.265,1,55);
+}
+#nav-menu .icon:hover .tooltip{
+  opacity: 1;
+  pointer-events: auto;
+}
+#nav-menu .icon .tooltip::before{
+  position: absolute;
+  content: "";
+  height: 15px;
+  width: 15px;
+  background: #00122B;
+  bottom: -8px;
+  left: 50%;
+  transform: translateX(-50%) rotate(45deg);
+}
+#nav-menu .icon{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  z-index: 2;
+}
+#nav-menu .icon .nav-icons{
+  font-size: 1.2rem;
+}
 #nav-menu a {
   background: transparent;
   padding: 0.9rem;
   border-radius: 50%;
   display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  z-index: 2;
   color: var(--color-l);
   font-size: 1.1rem;
 }
@@ -36,12 +95,18 @@
   background: transparent;
   color: #fff;
 }
+
+
 /* -------------- Media Queries for Small Devices-------- */
 
 @media screen and (max-width: 600px) {
   #nav-menu {
     width: max-content;
     display: flex;
-    gap: 0.01px;
+    padding: 0;
+    gap: 0px;
   }
+#nav-menu .stats-icon{
+  display: none;
+}
 }
